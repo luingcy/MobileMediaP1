@@ -1,0 +1,121 @@
+* {
+   font-family: 'Anaheim';
+}
+
+body {
+  margin: 0px;
+}
+
+header {
+   margin: 0px;
+  padding: 20px 0px 20px 0px;
+  width: 100%;
+  height: 20%;
+  background-color:#6096CE;
+   border-bottom: 15px solid #83C1FF; 
+  border-top: 15px solid #83C1FF; 
+  color: #FFEE77;
+  text-align: center;
+  font-size: 50px;
+}
+
+.banner {
+  margin: 0px; 
+  padding: 0px 5% 20px 5%;
+  width: 90%;
+  height: 20%;
+  background-color: #6096CE;
+  color: #FFEE77;
+  text-align: center;
+  border-bottom: 15px solid #83C1FF; 
+  border-top: 15px solid #83C1FF; 
+  font-size: 30px;
+
+}
+
+
+.banner h3 {
+  padding: 0px 0px 0px 0px;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container > .wideContent {
+  min-width: 0; 
+}
+
+.flex-container > .wideContent > img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 3px 3px 10px grey;
+}
+
+
+
+.flex-container > .content {
+  background-color: #A7DCED;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+  width: 20%;
+  flex: 0 1 16em;
+  justify-content: center;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px grey;
+}
+
+.flex-container > .content2 {
+  background-color: #A7DCED;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+  width: 20%;
+  flex: 0 1 16em;
+  justify-content: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px grey;
+}
+
+
+.flex-container > .content > img{
+   min-width: 0;
+   margin: 0px;
+   width: 100%;
+
+}
+
+@media only screen and (max-width: 1620px) and (min-width: 1240px) {
+
+.flex-container > .content2 {
+  background-color: #A7DCED;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+  width: 60%;
+  flex: 0 1 55em;
+  justify-content: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px grey;
+}
+
+}
+
+@media only screen and (max-width: 860px) {
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+}
+}
