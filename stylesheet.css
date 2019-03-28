@@ -1,5 +1,5 @@
 * {
-   font-family: 'Anaheim';
+   font-family: 'Muli', sans-serif;
 }
 
 body {
@@ -7,30 +7,50 @@ body {
 }
 
 header {
-   margin: 0px;
-  padding: 20px 0px 20px 0px;
-  width: 100%;
-  height: 20%;
-  background-color:#6096CE;
-   border-bottom: 15px solid #83C1FF; 
-  border-top: 15px solid #83C1FF; 
+  margin: 0px;
+  padding: 0% 0px 0% 0px;
   color: #FFEE77;
   text-align: center;
   font-size: 50px;
 }
 
-.banner {
-  margin: 0px; 
-  padding: 0px 5% 20px 5%;
+header img {
+  max-width: 100%;
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 20px 5% 20px 5%;
   width: 90%;
   height: 20%;
   background-color: #6096CE;
-  color: #FFEE77;
+
   text-align: center;
-  border-bottom: 15px solid #83C1FF; 
-  border-top: 15px solid #83C1FF; 
   font-size: 30px;
 
+}
+
+.banner {
+  margin: 0px;
+  padding: 20px 5% 20px 5%;
+  width: 90%;
+  height: 20%;
+  background-color: #6096CE;
+
+  text-align: center;
+  font-size: 30px;
+
+}
+
+.banner h2 {
+  color: #FFEE77;
+}
+
+.banner p {
+  color: white;
 }
 
 
@@ -38,13 +58,86 @@ header {
   padding: 0px 0px 0px 0px;
 }
 
+.banner h1 {
+  color: #FFEE77;
+}
+
+h1 {
+  font-weight: 100;
+}
+
 .flex-container{
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin: 50px;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+
+}
+
+.flex-container2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 50px;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.flex-container h1 {
+ color: #3c749b;
+  
+}
+
+.flex-container2 h1 {
+  color: #3c749b;
+}
+
+.flex-container2 > .content2 {
+
+  margin: 10px;
+  padding: 20px;
+  font-size: 25px;
+  width: 40%;
+  flex: 0 1 30em;
+  justify-content: center;
+  border-radius: 20px;
+  text-align: center;
+
+}
+
+.flex-container2 > .content3 {
+  background-color: #6096CE;
+  margin: 0px;
+  padding: 40px;
+  font-size: 25px;
+  width: 100%;
+  flex: 0 1 50em;
+  justify-content: center;
+  border-radius: 20px;
+  text-align: center;
+
+}
+
+.flex-container2 >  #phone{
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+  width: 15%;
+  flex: 0 1 10em;
+  justify-content: center;
+
+  text-align: center;
+
+}
+
+.flex-container2 > #wideImg{
+   min-width: 0;
+   margin: 10px;
+   width: 40%;
+
 }
 
 .flex-container > .wideContent {
@@ -54,68 +147,58 @@ header {
 .flex-container > .wideContent > img {
   max-width: 100%;
   height: auto;
-  box-shadow: 3px 3px 10px grey;
+
+
 }
 
+.content h3 {
+   color: #3c749b;
+}
 
-
-.flex-container > .content {
-  background-color: #A7DCED;
+.flex-container > .phone {
   margin: 10px;
   padding: 20px;
   font-size: 20px;
   width: 20%;
   flex: 0 1 16em;
   justify-content: center;
-  border-radius: 20px;
-  box-shadow: 3px 3px 10px grey;
+  font-size: 25px;
+
+  text-align: center;
+
 }
 
-.flex-container > .content2 {
-  background-color: #A7DCED;
-  margin: 10px;
-  padding: 20px;
-  font-size: 20px;
-  width: 20%;
-  flex: 0 1 16em;
-  justify-content: center;
-    border-radius: 20px;
-    box-shadow: 3px 3px 10px grey;
-}
-
-
-.flex-container > .content > img{
+.flex-container > .phone > img{
    min-width: 0;
    margin: 0px;
    width: 100%;
 
 }
 
-@media only screen and (max-width: 1620px) and (min-width: 1240px) {
+.flex-container > .content {
+
+  margin: 10px;
+  padding: 20px;
+  font-size: 25px;
+  width: 20%;
+  flex: 0 1 16em;
+  justify-content: center;
+  border-radius: 20px;
+
+}
 
 .flex-container > .content2 {
   background-color: #A7DCED;
   margin: 10px;
   padding: 20px;
   font-size: 20px;
-  width: 60%;
-  flex: 0 1 55em;
+  width: 20%;
+  flex: 0 1 16em;
   justify-content: center;
     border-radius: 20px;
     box-shadow: 3px 3px 10px grey;
 }
 
-}
 
-@media only screen and (max-width: 860px) {
-.flex-container{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 0px;
-  justify-content: center;
-  align-items: center;
-}
 
-}
 }
