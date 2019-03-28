@@ -74,7 +74,7 @@ h1 {
   flex-wrap: wrap;
   margin: 50px;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-start;
 
 }
 
@@ -165,7 +165,7 @@ min-width: 0;
   padding: 20px;
   font-size: 20px;
   width: 20%;
-  flex: 0 1 14em;
+  flex: 0 1 11em;
   justify-content: center;
 
 
@@ -196,7 +196,7 @@ min-width: 0;
   background-color: #A7DCED;
   margin: 10px;
   padding: 20px;
-  font-size: 20px;
+  font-size: 12px;
   width: 20%;
   flex: 0 1 16em;
   justify-content: center;
@@ -205,5 +205,69 @@ min-width: 0;
 }
 
 
+@media only screen and (max-width: 1020px) {
+  .flex-container > .content {
 
+  margin: 10px;
+  padding: 20px;
+  font-size: 15px;
+  width: 20%;
+  flex: 0 1 16em;
+  justify-content: center;
+  border-radius: 20px;
+
+}
+
+.flex-container > .content2 {
+  background-color: #A7DCED;
+  margin: 10px;
+  padding: 20px;
+  font-size: 15px;
+  width: 20%;
+  flex: 0 1 16em;
+  justify-content: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px grey;
+}
+
+
+.flex-container > .phone {
+  margin: 10px;
+  padding: 20px;
+  font-size: 15px;
+  width: 20%;
+  flex: 0 1 9em;
+  justify-content: center;
+
+
+  text-align: center;
+
+}
+
+.flex-container2 > .content2 {
+
+  margin: 10px;
+  padding: 20px;
+  font-size: 15px;
+  width: 40%;
+  flex: 0 1 30em;
+  justify-content: center;
+  border-radius: 20px;
+  text-align: center;
+
+}
+
+
+
+.flex-container2 >  #phone{
+  margin: 10px;
+  padding: 20px;
+  font-size: 15px;
+  width: 15%;
+  flex: 0 1 10em;
+  justify-content: center;
+
+  text-align: center;
+
+}
 }
