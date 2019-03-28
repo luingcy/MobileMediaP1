@@ -203,7 +203,13 @@ min-width: 0;
     border-radius: 20px;
     box-shadow: 3px 3px 10px grey;
 }
+@media only screen and (max-width: 1480px) {
+    .flex-container > .content {
 
+  text-align: center;
+
+}
+}
 
 @media only screen and (max-width: 1020px) {
   .flex-container > .content {
