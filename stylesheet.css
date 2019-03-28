@@ -41,7 +41,7 @@ footer {
   background-color: #6096CE;
 
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
 
 }
 
@@ -51,6 +51,7 @@ footer {
 
 .banner p {
   color: white;
+  padding: 0px 20% 0px 20%;
 }
 
 
@@ -91,7 +92,7 @@ h1 {
   
 }
 
-.flex-container2 h1 {
+.flex-container2 > h1 {
   color: #3c749b;
 }
 
@@ -99,7 +100,7 @@ h1 {
 
   margin: 10px;
   padding: 20px;
-  font-size: 25px;
+  font-size: 20px;
   width: 40%;
   flex: 0 1 30em;
   justify-content: center;
@@ -112,7 +113,7 @@ h1 {
   background-color: #6096CE;
   margin: 0px;
   padding: 40px;
-  font-size: 25px;
+  font-size: 20px;
   width: 100%;
   flex: 0 1 50em;
   justify-content: center;
@@ -133,10 +134,14 @@ h1 {
 
 }
 
-.flex-container2 > #wideImg{
-   min-width: 0;
-   margin: 10px;
-   width: 40%;
+.flex-container2 > .wideContent{
+min-width: 0; 
+
+}
+
+.flex-container2 > .wideContent > img{
+  max-width: 100%;
+  height: auto;
 
 }
 
@@ -160,9 +165,9 @@ h1 {
   padding: 20px;
   font-size: 20px;
   width: 20%;
-  flex: 0 1 16em;
+  flex: 0 1 11em;
   justify-content: center;
-  font-size: 25px;
+
 
   text-align: center;
 
@@ -179,7 +184,7 @@ h1 {
 
   margin: 10px;
   padding: 20px;
-  font-size: 25px;
+  font-size: 20px;
   width: 20%;
   flex: 0 1 16em;
   justify-content: center;
