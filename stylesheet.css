@@ -270,4 +270,23 @@ min-width: 0;
   text-align: center;
 
 }
+
+.banner {
+  margin: 0px;
+  padding: 20px 5% 20px 5%;
+  width: 90%;
+  height: 20%;
+  background-color: #6096CE;
+
+  text-align: center;
+  font-size: 12px;
+
+}
+
+footer {
+
+  font-size: 15px;
+
+}
+
 }
